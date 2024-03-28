@@ -77,3 +77,23 @@ body {
 @keyframes rotate {
   100% {transform: rotate(360deg);}
 }
+
+
+h1 {
+  animation: text-flicker 2s linear infinite;
+}
+
+@keyframes text-flicker {
+  0%, 100% {color: #fff;}
+  50% {color: #000;}
+}
+
+.btn {
+  animation: btn-pulse 2s ease-out infinite;
+}
+
+@keyframes btn-pulse {
+  0% {background-color: #676264;}
+  50% {background-color: #fbff17;}
+  100% {background-color: #676264;}
+}
