@@ -57,3 +57,23 @@ form {
   box-shadow: none;
   top: 6px; 
 } 
+
+body {
+  animation: color-change 20s infinite;
+}
+
+@keyframes color-change {
+  0% {background: #342E37;}
+  25% {background: #cc00ff;}
+  50% {background: #00f0d8;}
+  75% {background: #0070f0;}
+  100% {background: #342E37;}
+}
+
+.container {
+  animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+  100% {transform: rotate(360deg);}
+}
